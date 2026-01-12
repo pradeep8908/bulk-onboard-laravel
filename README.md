@@ -63,5 +63,5 @@ php artisan key:generate
 
 -------------------------
 # To get details
-curl --location 'http://localhost:8000/api/batch/b07b65aa-c7e0-4b94-a6f4-ddd05c9cb6ed' \
+curl --location 'http://localhost:8000/api/batch/{batch_id}' \
 --data ''
